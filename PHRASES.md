@@ -39,3 +39,11 @@ is doing. Before the line stops. Stay green." `tools/check.py` prints "no repeat
 
 The Greenforest ecosystem cut (`scripts/greenforest-ecosystem.json`) uses every shared line word for word, including
 "OpenVINO says where it really ran: NPU."
+
+## MIRA standalone cut (`MIRA/video/script-solo.json`, here `scripts/mira-standalone.json`)
+
+Different voice (`bf_emma`, British), third-person narrator, own chapters ("Two forty-seven", "MIRA", "Under the hood",
+"On site"). It opens with "Two forty-seven in the morning. Line three goes quiet." and ends with "MIRA. Answers from your
+own manuals." Kept from the ecosystem cut because they are MIRA's own: the 2:47 stop, E-417, the manual with hundreds of
+pages, "Every statement points to its source", "I don't know" when the documents have nothing. Measured numbers stay as
+`{placeholders}` here (they change with every run); conditional lines are listed with both branches.
