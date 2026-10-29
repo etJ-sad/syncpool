@@ -1,0 +1,75 @@
+[
+[
+"Sixty parts a minute. Eight hours a shift.",
+"Somewhere in that stream, one pin is bent.",
+"A human inspector would need a magnifier, and a lot of luck."
+],
+[
+"Lumen catches it.",
+"Visual inspection that lives inside the industrial PC, right beside the line."
+],
+[
+"It spots surface defects, counts what passes the camera, and reads what is printed on the part."
+],
+[
+"Teaching it takes twenty photos of good parts.",
+"No defect library. No labelling sessions."
+],
+[
+"Counting objects takes about seven milliseconds per image."
+],
+[
+"Type plates and serial numbers come back as plain text, line by line."
+],
+[
+"Operators work in a single desktop application.",
+"Each module shows which processor it uses."
+],
+[
+"That processor is the neural processing unit.",
+"A part of the Intel chip most software leaves idle."
+],
+[
+"Each network is built for that unit by name.",
+"OpenVINO reports where each model actually runs.",
+"The outputs are compared against a CPU reference."
+],
+[
+"On the large model, the regular cores need more than four times as long.",
+"The graphics chip keeps pace."
+],
+[
+"So why not use the graphics chip?",
+"An add-in card means budget, power and heat in the cabinet. The integrated one is busy rendering the HMI.",
+"And under load its response times spread, to more than three times the median.",
+"The neural unit stays consistent, part after part."
+],
+[
+"Meanwhile, the processor cores barely notice.",
+"Up to ninety-five percent load when they do the inference.",
+"Below one and a half percent when the neural unit does it."
+],
+[
+"Ten thousand test images went through in under four minutes.",
+"About forty-five per second, from start to finish."
+],
+[
+"Verdicts reach the controller over OPC UA.",
+"Trigger, busy, done.",
+"Factory IT can subscribe through MQTT, or call a REST endpoint."
+],
+[
+"Each inspection is recorded with its verdict and its timing."
+],
+[
+"Images, models and results stay on site.",
+"Nothing calls home."
+],
+[
+"Silicon that was already paid for, finally doing useful work."
+],
+[
+"Lumen.",
+"See every part."
+]
+]

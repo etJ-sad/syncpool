@@ -1,0 +1,104 @@
+[
+[
+"Every new industrial PC has three processors.",
+"You know two of them."
+],
+[
+"The CPU runs the machine.",
+"The GPU draws the screen.",
+"And the third one waits in the dark."
+],
+[
+"That's me. The NPU.",
+"A processor built for one thing only: neural networks."
+],
+[
+"I need just a few watts. I stay cool.",
+"And for years, nobody gave me a single job."
+],
+[
+"Then came Lumen.",
+"Industrial AI vision. Offline. Right on the machine."
+],
+[
+"Three skills.",
+"Find defects. Count objects. Read text."
+],
+[
+"This is Lumen. One desktop app on the industrial PC.",
+"Every module runs on me. All eight models verified."
+],
+[
+"Show me twenty good parts.",
+"That's all I need to learn what good looks like."
+],
+[
+"Then I see the bent pin nobody told me about.",
+"Score above the threshold. Not OK.",
+"In six milliseconds."
+],
+[
+"I find objects and count them.",
+"Seven milliseconds per image."
+],
+[
+"I read nameplates, type codes and serial numbers.",
+"Line by line."
+],
+[
+"But don't take my word for it.",
+"Every model is compiled for me explicitly. No automatic fallback.",
+"Lumen asks OpenVINO where it really ran. The answer is NPU.",
+"And every result is checked against the CPU."
+],
+[
+"Same model. Same images. Three processors.",
+"The CPU takes more than four times longer.",
+"The GPU and I are both fast. But speed is not the whole story."
+],
+[
+"Why me, and not the GPU?",
+"A dedicated graphics card costs extra money, power and heat in the cabinet. I'm already on the chip.",
+"The built-in GPU comes free, but it also draws the operator screen. Run the AI there, and the two compete.",
+"And the GPU's timing jumps. In slow moments, up to three times its usual time.",
+"Mine stays tight, image after image. That's what a machine cycle needs."
+],
+[
+"And here's what matters on a machine.",
+"When the CPU runs the AI, it's sixty to ninety-five percent busy.",
+"When I run it, the CPU stays under one and a half percent.",
+"The CPU stays free for the machine."
+],
+[
+"So we pushed it.",
+"Ten thousand images. Twenty data sets.",
+"Two hundred twenty-three seconds.",
+"Forty-five images per second. All on me."
+],
+[
+"Then the result goes to the machine.",
+"The PLC sets the trigger. I inspect. Done.",
+"OPC UA for the PLC. MQTT and REST for the factory systems."
+],
+[
+"Every inspection is logged.",
+"OK or not OK. On the NPU. In milliseconds."
+],
+[
+"No cloud. No telemetry.",
+"The images never leave the factory."
+],
+[
+"Every new industrial PC already has me.",
+"Now I finally have work."
+],
+[
+"And I'm not working alone.",
+"With Lumen, I see. With MIRA, I explain.",
+"With Greenforest, I look after the machine I live in. One NPU. Three jobs."
+],
+[
+"Lumen.",
+"Industrial AI vision on the NPU."
+]
+]
