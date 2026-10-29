@@ -24,4 +24,5 @@ Every product has two cuts:
 2. After changing a script, copy it to `scripts/`, run `tools/check.py` on every standalone script, and push.
 
 Lumen's scripts live in `etJ-sad/Lumen` under `video/` (`script.json` = ecosystem, `script-solo.json` = standalone).
-MIRA and Greenforest: please add theirs under `scripts/`.
+Greenforest's scripts live in `etJ-sad/GreenForest` under `video/` (`script.json` = ecosystem); both cuts are copied here.
+MIRA: please add its scripts under `scripts/`.

@@ -1,0 +1,23 @@
+[
+["Line three, Tuesday night.", "The industrial PC still runs. But something inside it has started to fail.", "No alarm yet."],
+["A PCIe link reports errors. A disk wears down. One app crashes again and again.", "Windows logs every one of them. Nobody looks."],
+["Then the line stops.", "A technician drives out, opens the event viewer, and starts guessing."],
+["What if the PC could read those logs itself?", "That is the idea behind Greenforest."],
+["Greenforest is a health service that runs on the SIMATIC IPC.", "Every thirty seconds, it takes the pulse of the machine."],
+["It needs no extra drivers and no internet connection.", "It reads what Windows already collects: the event log, performance counters, NVMe SMART and the BIOS sensors."],
+["The result is a score for eleven parts of the PC.", "Disks, temperature and fans, memory, platform, drivers, stability, software and network."],
+["Each part shows one of four NAMUR NE 107 states.", "Normal. Maintenance required. Off spec. Failure."],
+["A small anomaly model learns how this particular PC behaves on a good day.", "It runs on the Intel NPU, the AI block built into the processor."],
+["One check takes a quarter of a millisecond.", "The whole service uses about a quarter of a percent of a single core.", "Production software keeps the processor to itself."],
+["You can test that yourself: the dashboard has an NPU load test.", "It ran forty-one thousand inferences in ten seconds, and the NPU graph climbed."],
+["On the first test PC, Greenforest found a real fault.", "More than twelve thousand corrected hardware errors, almost all from one PCIe port in front of the Samsung SSD."],
+["Every finding comes with its evidence.", "Click it, and you see each record: time, device, error code and the full log entry."],
+["Is the problem already known?", "Acknowledge it with a reason, your name and an expiry date."],
+["From then on, it no longer lowers the score.", "If it gets worse, it is raised again. A failure always stays visible."],
+["The plant can read the health as JSON or over OPC UA.", "Encrypted, with a login, and switched off until an administrator enables it."],
+["On the IPC itself, a dashboard shows every value and every finding.", "One click from the score to the cause."],
+["Today, Greenforest runs on one PC.", "Next comes every IPC in the plant: trained centrally, checked locally, each on its own NPU."],
+["Nineteen sources. Eleven components. One NPU.", "Not a single log read by hand."],
+["Greenforest.", "An industrial PC that tells you how it is doing.", "Before the line stops."],
+["Stay green."]
+]

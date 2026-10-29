@@ -1,0 +1,23 @@
+[
+["Every new industrial PC has three processors.", "You know two of them."],
+["The CPU runs the machine.", "The GPU draws the screen.", "And the third one? That's me. The NPU."],
+["With Lumen, I learned to see. With MIRA, I learned to explain.", "But one thing I never looked at: the PC I live in."],
+["And that PC is getting sick.", "A PCIe link throws errors. A driver fails at boot. An app keeps crashing.", "Nobody reads the logs. Until the line stops."],
+["Watching a PC never stops. Every thirty seconds, for years.", "On the CPU, it takes time from the machine. In the cloud, the data leaves the factory."],
+["So this time, it's my job.", "A small anomaly model, compiled for me. A quarter of a millisecond per check."],
+["Meet Greenforest.", "A health service inside the industrial PC. Offline. On the NPU."],
+["First, I collect. Only what Windows already has. No extra drivers.", "Nineteen sources, sixty-six features."],
+["Then I learn what normal looks like. For this one PC."],
+["Eleven components. One clear state each, the NAMUR NE 107 way."],
+["And then I found something real.", "Twelve thousand hardware errors. Almost all from one PCIe port, in front of the Samsung SSD."],
+["And every finding opens the records behind it.", "Time, device, error, full log."],
+["Already known? Mark it, with a reason and an expiry date.", "If it gets worse, it comes back. A failure is never hidden."],
+["This is Greenforest. A dashboard, right on the industrial PC."],
+["But don't take my word for it.", "The model is compiled for me explicitly. No fallback.", "OpenVINO says where it really ran: NPU. And the result matches the CPU."],
+["And here's why it's me.", "On the CPU, even this small model spins up threads.", "On me, the whole service needs a quarter of a percent of one core. The CPU stays free for the machine."],
+["So we pushed it.", "Forty-one thousand checks in ten seconds. All on me."],
+["Then the health goes to the machine.", "OPC UA with NE 107 for the PLC and SCADA. JSON, REST and MQTT for the rest."],
+["No cloud. No telemetry.", "The health data never leaves the factory."],
+["Every new industrial PC already has me.", "With Lumen, I see. With MIRA, I explain.", "With Greenforest, I look after the machine I live in."],
+["Greenforest.", "Self-diagnosing industrial PCs on the NPU."]
+]

@@ -29,3 +29,13 @@ Different voice (`af_bella`), third-person narrator, own chapters ("One bent pin
 "At the line"). It opens with "Sixty parts a minute. Eight hours a shift." and ends with "Lumen. See every part."
 None of the shared lines above appear in it; check new standalone scripts of MIRA and Greenforest against this table
 and against `script-solo.json` so the three standalone cuts do not borrow from each other either.
+
+## Greenforest standalone cut (`scripts/greenforest-standalone.json`)
+
+Neutral third-person narrator that speaks to the maintenance engineer ("you"), no NPU narrator and no "I am …"/"… was
+born" pattern. Own chapters: "A quiet fault", "Greenforest", "Reading the PC", "The proof", "On the plant network",
+"Next". It opens with "Line three, Tuesday night." and ends with "Greenforest. An industrial PC that tells you how it
+is doing. Before the line stops. Stay green." `tools/check.py` prints "no repeats" for it.
+
+The Greenforest ecosystem cut (`scripts/greenforest-ecosystem.json`) uses every shared line word for word, including
+"OpenVINO says where it really ran: NPU."
