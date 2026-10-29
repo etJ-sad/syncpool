@@ -32,10 +32,12 @@ and against `script-solo.json` so the three standalone cuts do not borrow from e
 
 ## Greenforest standalone cut (`scripts/greenforest-standalone.json`)
 
-Neutral third-person narrator that speaks to the maintenance engineer ("you"), no NPU narrator and no "I am …"/"… was
-born" pattern. Own chapters: "A quiet fault", "Greenforest", "Reading the PC", "The proof", "On the plant network",
-"Next". It opens with "Line three, Tuesday night." and ends with "Greenforest. An industrial PC that tells you how it
-is doing. Before the line stops. Stay green." `tools/check.py` prints "no repeats" for it.
+Neutral narrator (Kokoro blend af_bella / ef_dora / af_nicole, not the NPU voice) that speaks to the maintenance
+engineer ("you"), no "I am …" / "… was born" pattern. Own chapters, shown as scene kickers: "02 Greenforest",
+"03 Reading the PC", "04 Why the NPU", "05 A real fault", "06 On the plant network", "07 Next". Chapter 04 says why
+the NPU and not the CPU or GPU in its own words ("The CPU belongs to the machine control …", "The graphics chip drives
+the operator screen.", "The NPU was idle. It needs a third of the CPU time, and no threads at all."). It opens with
+"Line three, Tuesday night." and ends with "Before the line stops. Stay green." `tools/check.py` prints "no repeats".
 
 The Greenforest ecosystem cut (`scripts/greenforest-ecosystem.json`) uses every shared line word for word, including
 "OpenVINO says where it really ran: NPU."
